@@ -1,0 +1,155 @@
+* {
+    margin:0;
+    padding:0;
+    font-family:'Outfit';
+}
+.top-section{
+    position: relative;
+    height:100vh;
+    width:100%;
+    overflow: hidden;   
+}
+
+@media screen and (max-width:768px){
+    .top-section{
+        height:70vh;
+    }
+
+    #title-img img{
+        display: none;
+    }
+
+    .title{
+        align-items: end !important; 
+    }
+
+    .title h1{
+        font-size:large;
+    }
+    .title p{
+        font-size:small;
+    }
+}
+
+
+#videobcg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    height:auto;
+    width:auto;
+    z-index: -100;
+}
+
+.card{
+    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.25));;
+}
+
+.card:hover{
+    background-color: #00C170;
+    transition:1000ms;
+}
+
+.card:hover i{
+   transform: scale(1.2,1.2);
+    transition:.3s;
+}
+
+
+.rectangle{
+    display:block;
+    height:160px;
+    width:342px;
+    margin:auto;
+    background:white;
+    position:relative;
+    margin-top:100px;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+  }
+  
+  .circle{
+    position:absolute;
+    height:124px;
+    width:124px;
+    border-radius:50%;
+    border:10px solid #00C170;
+    left:10%;
+    margin-left:-25px;
+    top: -60px;
+    background:white;
+  }
+
+  @media screen and (max-width: 576px) {
+    .points  p{
+      font-size: 10px;
+      margin:0px;
+    }
+
+    .features h2{
+        font-size:20px;
+    }
+    .discription{
+        font-size:10px;
+    }
+  }
+  
+  /* Media query for medium screens */
+  @media screen and (min-width: 577px) and (max-width: 992px) {
+    .points p{
+      font-size: 10px;
+      margin: 0px;
+    }
+    .features h2{
+        font-size:20px;
+    }
+    .discription{
+        font-size:12px;
+    }
+  }
+  
+  /* Media query for large screens */
+  @media screen and (min-width: 993px) and (max-width: 1200px) {
+    .points  p{
+      font-size: 15px;
+      margin: 0px
+    }
+    .features h2{
+        font-size:25px;  
+    }
+    .discription{
+        font-size:13px;
+    }
+  }
+  
+  /* Media query for extra-large screens */
+  @media screen and (min-width: 1201px) {
+    .points  p{
+      font-size: 18px;
+      margin:0px;
+    }
+    .features h2{
+        font-size:50px;
+    }
+
+    .discription{
+        font-size:18px;
+    }
+  }
+  
+  
+  .btn-buy-now {
+    font-size: 16px;
+    padding: 8px 18px;
+    width: 100%;
+    max-width: 150px;
+    margin: 0;
+  }
+  
+  
+  
+  
+  
+  
